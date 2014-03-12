@@ -6,5 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_contacto">Contacto</string>
     <string name="title_activity_internet">Webview</string>
+    <string name="title_activity_webview">Webview</string>
+    <string name="btnWebview">Webview</string>
 
 </resources>

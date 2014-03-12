@@ -12,6 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity {
     private Button boton;
     private Button boton2;
+    private Button boton3;
     private TextView texto1;
 
     @Override
@@ -38,6 +39,15 @@ public class MainActivity extends ActionBarActivity {
 
             }
 
+        });
+
+        boton3 = (Button)findViewById(R.id.button3);
+        boton3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intento =new Intent(getApplicationContext(), WebviewActivity.class);
+                startActivity(intento);
+            }
         });
     }
 

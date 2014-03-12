@@ -23,8 +23,8 @@
             android:label="@string/title_activity_contacto" >
         </activity>
         <activity
-            android:name="com.tec2.dam.app.InternetActivity"
-            android:label="@string/title_activity_internet" >
+            android:name="com.tec2.dam.app.WebviewActivity"
+            android:label="@string/title_activity_webview" >
         </activity>
     </application>
 
